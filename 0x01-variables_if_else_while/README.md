@@ -1,7 +1,7 @@
-s directory ia about C identifiers, Logical, Relational and Arithmetic Operators, and if, if else and while loop functions.
+This directory is about C identifiers, Logical, Relational and Arithmetic Operators, and if, if else and while loop functions.
 A brief description of each file is stated below: 
   
-0-positive_or_negative.c: assign a random number to the variable "n" each time it is executed.
+0 -positive_or_negative.c: assign a random number to the variable "n" each time it is executed.
 - 1-last_digit.c: assign a random number to the variable "n" each time it is executed.
 - 2-print_alphabet.c:  prints the alphabet in lowercase, followed by a new line.
 - 3-print_alphabets.c: prints the alphabet in lowercase, and then in uppercase, followed by a new line.
