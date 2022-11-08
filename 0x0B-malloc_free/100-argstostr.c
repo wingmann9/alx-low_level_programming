@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * astos - Concatenates all auments of the program into a sing;
- *             auments are separated by a new line in the sing.
- * @ac: Number of auments passed to the program.
- * @av: Array of pointers to the auments.
+ * argstostr - Concatenates all arguments of the program into a string;
+ *             arguments are separated by a new line in the string.
+ * @ac: Number of arguments passed to the program.
+ * @av: Array of pointers to the arguments.
  *
- * Return: Pointer to the new sing, otherwise NULL.
+ * Return: Pointer to the new string, otherwise NULL.
  */
 
 char *argstostr(int ac, char **av)
