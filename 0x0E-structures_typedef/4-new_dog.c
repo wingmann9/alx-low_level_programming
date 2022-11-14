@@ -62,7 +62,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	{
 		free(doggo);
 		return (NULL);
-	
+
 	}
 
 	doggo->owner = malloc(sizeof(char) * (_strlen(owner) + 1));
@@ -71,7 +71,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		free(doggo->name);
 		free(doggo);
 		return (NULL);
-	
+
 	}
 
 	doggo->name = _strcopy(doggo->name, name);
