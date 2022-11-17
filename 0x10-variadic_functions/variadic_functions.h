@@ -6,12 +6,19 @@
 #include <stdarg.h>
 
 /**
- * _putchar - Print the character c to stdout.
- * @c: Character to be printed.
- * Return: The printed character.
+ * struct printer - A new struct type defining a printer.
+ * @symbol: Symbol representing a data type.
+ * @print: Function pointer to a function that prints a data type
+ *		corresponding to symbol.
  *
- * Desc: Header file containing all functions prototype in the directory.
+ * Desc: Header file containing a struct function and
+ *		all functions prototype in the directory.
  */
+typedef struct printer
+{
+	char *symbol;
+	void (*print)(va_list arg);
+} printer_t;
 
 int _putchar(char c);
 int sum_them_all(const unsigned int n, ...);
